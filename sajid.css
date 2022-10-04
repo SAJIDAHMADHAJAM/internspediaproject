@@ -1,0 +1,72 @@
+.container{
+    display:flex;
+    width: 98%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.hex-color{
+    border: 1px black;
+    text-align: center;
+}
+.hex-color h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: colorchange 30s infinite alternate;
+}
+.hex-color h2{
+    border: 1px  rgba(34, 32, 32, 0.525);
+    border-style:groove;
+    border-width: 3px;
+    margin-top: 15%;
+    font-size: 2rem;
+    animation: change 5s infinite alternate;
+}
+@keyframes  colorchange{
+    0%{
+        color: green;
+    }
+    20%{
+        color: greenyellow;
+    }
+    40%{
+        color: white;
+    }
+    60%{
+        color: red;
+    }
+    80%{
+        color: green;
+    }
+    100%{
+        color: pink;
+    }
+
+}
+@keyframes  change{
+    0%{
+        color: blue;
+    }
+    20%{
+        color:pink;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color:skyblue;
+    }
+    80%{
+        color: purple;
+    }
+    100%{
+        color:navy;
+    }
+
+}
+.button_css{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: rgb(24, 108, 144);
+    width: 150px;
+    height: 40px;
+}        
